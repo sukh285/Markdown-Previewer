@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="inputDiv" class="sections">
+        <textarea id="markdown-input" placeholder="Enter Markdown here..."></textarea>
+        <div id="preview"></div>
+    </div>
+    <button type="button" name="reset" id="reset">Reset</button>
+    <div id="instructions">
+        <p>Basic Markdown Instructions:</p>
+        <ul>
+            <li># Header: # Header 1</li>
+            <li>**Bold**: **bold text**</li>
+            <li>*Italic*: *italic text*</li>
+            <li>[Link](url): [Google](https://www.google.com)</li>
+            <li>Line Divider : ___</li>
+            <li>- List: - List item</li>
+        </ul>
+    </div>
+</div>
+</body>
+<script type="module" src="md.js"></script>
+</html>

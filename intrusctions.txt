@@ -1,0 +1,7 @@
+// Basic Markdown Instructions
+// # Header: Create a header by starting a line with one or more # symbols, followed by a space. Example: # Header 1
+// **Bold**: Make text bold by wrapping it in double asterisks. Example: **bold text**
+// *Italic*: Make text italic by wrapping it in single asterisks. Example: *italic text*
+// [Link](url): Create a hyperlink by wrapping the link text in square brackets, followed by the URL in parentheses. Example: [Google](https://www.google.com)
+// `Code`: Display inline code by wrapping it in backticks. Example: `inline code`
+// - List: Create a list item by starting a line with a hyphen followed by a space. Example: - List item
